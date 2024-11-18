@@ -67,13 +67,13 @@ pd.set_option('max_colwidth', None)
 
 ## crea el dataframe para el consumo
 
-energy_df = pd.read_csv("C:/Users/camil/Documents/Data Sciences/Own Projects/Energy/energy_consumption.csv"  ## Ruta relativa del archivo
+energy_df = pd.read_csv("/Data Sciences/Own Projects/Energy/energy_consumption.csv"  ## Ruta relativa del archivo
                         , sep = ","                    ## Carater seprador de columnas
                         , header=0                     ## Línea donde están los encabezados de las columnas
                         )
 
 ## creando el dataframe para la generación
-electricity_df = pd.read_csv("C:/Users/camil/Documents/Data Sciences/Own Projects/Energy/electricity_generation.csv"  ## Ruta relativa del archivo
+electricity_df = pd.read_csv("/Data Sciences/Own Projects/Energy/electricity_generation.csv"  ## Ruta relativa del archivo
                         , sep = ","                             ## Carater seprador de columnas
                         , header=0                              ## Línea donde están los encabezados de las columnas
                         )
